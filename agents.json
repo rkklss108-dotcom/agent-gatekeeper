@@ -1,0 +1,26 @@
+{
+  "ShoppingAssistant": {
+    "name": "ShoppingAssistant",
+    "status": "ACTIVE",
+    "registered_at": "2026-11-21 23:43:48",
+    "revoked_at": null
+  },
+  "OldCompromisedBot": {
+    "name": "OldCompromisedBot",
+    "status": "REVOKED",
+    "registered_at": "2026-11-21 23:43:48",
+    "revoked_at": "2026-11-21 23:43:48"
+  },
+  "AlexaBuyer": {
+    "name": "AlexaBuyer",
+    "status": "REVOKED",
+    "registered_at": "2026-11-21 23:40:54",
+    "revoked_at": "2026-11-21 23:41:50"
+  },
+  "MyShopper": {
+    "name": "MyShopper",
+    "status": "REVOKED",
+    "registered_at": "2026-11-21 23:50:30",
+    "revoked_at": "2026-11-21 23:51:37"
+  }
+}
