@@ -1,0 +1,23 @@
+time,request,decision,rule
+2026-11-21 23:39:41,Customer_A ShoppingAssistant view_order 0,ALLOW,Rule 4: view_order
+2026-11-21 23:39:41,Customer_B RogueExternalBot place_order 1000,BLOCK,Rule 2: unknown agent
+2026-11-21 23:39:41,Customer_C ShoppingAssistant place_order 7500,ASK CUSTOMER,Rule 7: place_order or return above Rs 5000
+2026-11-21 23:39:41,Customer_D ShoppingAssistant place_order 2500,ALLOW,Rule 6: place_order or return up to Rs 5000
+2026-11-21 23:39:41,Customer_E OldCompromisedBot place_order 1000,BLOCK,Rule 1: revoked agent
+2026-11-21 23:39:41,Customer_F ShoppingAssistant refund 1200,ASK CUSTOMER,Rule 5: refund
+2026-11-21 23:41:05,John AlexaBuyer place_order 4500,ALLOW,Rule 6: place_order or return up to Rs 5000
+2026-11-21 23:41:38,John AlexaBuyer place_order 12000,ASK CUSTOMER,Rule 7: place_order or return above Rs 5000
+2026-11-21 23:42:19,John AlexaBuyer view_order 0,BLOCK,Rule 1: revoked agent
+2026-11-21 23:42:30,John ShoppingAssistant delete_account 1000,BLOCK,"Rule 3: missing customer, invalid action or negative amount"
+2026-11-21 23:42:42,John ShoppingAssistant place_order -200,BLOCK,"Rule 3: missing customer, invalid action or negative amount"
+2026-11-21 23:43:01,ShoppingAssistant place_order 200,BLOCK,Rule 2: unknown agent
+2026-11-21 23:43:32,ShoppingAssistant place_order 200,BLOCK,"Rule 3: missing customer, invalid action or negative amount"
+2026-11-21 23:43:42,None ShoppingAssistant place_order 200,BLOCK,"Rule 3: missing customer, invalid action or negative amount"
+2026-11-21 23:43:48,Customer_A ShoppingAssistant view_order 0,ALLOW,Rule 4: view_order
+2026-11-21 23:43:48,Customer_B RogueExternalBot place_order 1000,BLOCK,Rule 2: unknown agent
+2026-11-21 23:43:48,Customer_C ShoppingAssistant place_order 7500,ASK CUSTOMER,Rule 7: place_order or return above Rs 5000
+2026-11-21 23:43:48,Customer_D ShoppingAssistant place_order 2500,ALLOW,Rule 6: place_order or return up to Rs 5000
+2026-11-21 23:43:48,Customer_E OldCompromisedBot place_order 1000,BLOCK,Rule 1: revoked agent
+2026-11-21 23:43:48,Customer_F ShoppingAssistant refund 1200,ASK CUSTOMER,Rule 5: refund
+2026-11-21 23:51:22,Asha MyShopper place_order 9000,ASK CUSTOMER,Rule 7: place_order or return above Rs 5000
+2026-11-21 23:51:46,Asha MyShopper place_order 100,BLOCK,Rule 1: revoked agent
